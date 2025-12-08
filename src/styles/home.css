@@ -1,0 +1,83 @@
+:root {
+    --cor-primaria: blue;
+    --cor-secundaria: white;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-voltar {
+    width: 70px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.h1 {
+    font-size: 26px;
+}
+
+.main {
+    width: auto;
+    height: auto;
+}
+
+.form {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px;
+}
+
+.content-tarefas {
+    width: 100%;
+    height: auto;
+}
+
+.campo-tarefa {
+    background-color: gray;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
