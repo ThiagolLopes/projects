@@ -37,3 +37,9 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+.mensagem {
+    color: rgb(0, 102, 255);
+    display: flex;
+    justify-content: center;
+}
