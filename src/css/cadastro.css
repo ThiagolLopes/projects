@@ -5,9 +5,6 @@ body {
 
 .container {
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .form-signin {
@@ -23,22 +20,16 @@ body {
 
 .form-floating {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.form-signin input[type="email"] {
+.form-signin input[type="titulo"] {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.form-signin input[type="password"] {
+.form-signin input[type="descricao"] {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-}
-
-.mensagem {
-    color: rgb(0, 102, 255);
-    display: flex;
-    justify-content: center;
-    margin: 10px;
 }
