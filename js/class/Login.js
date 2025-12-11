@@ -6,7 +6,7 @@ export class Login {
         this.mensagem = mensagem;
     }
 
-    // Verificar login
+    // Verifica login
     validarCampos() {
         const usuario = this.usuario.value.trim();
         const senha = this.senha.value.trim();
@@ -25,12 +25,12 @@ export class Login {
         }
     }
 
-    // Mostrar mensagens
+    // Mostra mensagens
     mostrarMensagem(msg) {
         this.mensagem.innerText = msg;
     }
 
-    // Conectar evento do botão
+    // Conecta evento do botão
     autenticar() {
         this.botao.addEventListener("click", (event) => {
             event.preventDefault();
