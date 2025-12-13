@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="src/css/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <main class="form-signin w-100 m-auto">
+            <form>
+                <h1 class="h3 mb-3 fw-normal">Login</h1>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="usuario" placeholder="name" />
+                    <label for="usuario">Nome</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="senha" placeholder="Password" />
+                    <label for="senha">Senha</label>
+                </div>
+                <div id="mensagem" class="mensagem"></div>
+                <button id="botao" class="btn btn-primary w-100 py-2" type="submit" name="enviar">
+                    Entrar
+                </button>
+            </form>
+        </main>
+    </div>
+
+    <script type="module" src="js/scripts/login.js"></script>
+</body>
+
+</html>
